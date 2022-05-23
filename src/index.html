@@ -6,9 +6,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>GRINGOTTS WIZARDING BANK</header>
+    <img id="grin" alt="Gringotts" src="https://s32508.pcdn.co/wp-content/uploads/2019/06/Gringotts-Page-Hero.jpg"/>
+    <main>
+      <h1>BANCA DIGITAL</h1>
+      <p>Afiliate a Banca por Internet: Ahorra tiempo y realiza tus pagos y transferencias de galeones de oro sin salir de casa.</p>
+      <h2>REGISTRESE AQUI:</h2>
+      <h3>“El lugar más seguro del mundo para cualquier cosa que quieras mantener a salvo” - Opinión de Rubeus Hagrid sobre Gringotts</h3>
+      <img id="coins" alt="Coins" src="http://ae01.alicdn.com/kf/Hd8fb706ad9e347f9aa9cf267a12275438.jpg"/>
+      <img id="card" alt="Card" src="https://i.pinimg.com/736x/8f/5f/67/8f5f67046def65101e8c06ac431d4cb5.jpg"/>
+
+      <form id="reg">
+
+        <label class="tarjeta" for="tar"> Ingresa el número de tu tarjeta: </label>
+        <input id="tar" type="text" name="tarjeta">
+
+        <label class="identificacion" for="ident"> Ingresa tu número de identificación: </label>
+        <input id="ident" type="text" name="identificacion">
+
+        <label class="boveda" for="bov"> Ingresa el número de tu bóveda: </label>
+        <input id="bov" type="text" name="boveda">
+
+      </form>
+
+
+    </main>
+    <footer>2022 Gringotts Wizarding Bank | Todos los derechos reservados. North Side of Diagon Alley, London, England</footer>
+    <img id="escudo" alt="Escudo" src="https://m.media-amazon.com/images/I/61KX2W749JL._AC_SX679_.jpg"/>
     <script src="index.js" type="module"></script>
+
+    <button id="registrar" onclick=primerPaso()>REGISTRAR</button>
+    <button id="limpiar" onclick=clean()>LIMPIAR</button>
+
+
+    
   </body>
 </html>
