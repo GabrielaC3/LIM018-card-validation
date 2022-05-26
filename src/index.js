@@ -17,5 +17,7 @@ function regis() {
     let cad = document.getElementById('tar').value;
     console.log(cad);
     console.log(validator.isValid(cad));
+    console.log(validator.maskify(cad));
+
 }
 

@@ -47,4 +47,19 @@ validator.isValid = function(creditCardNumber){
     }
   }
 
+
+validator.maskify = function(creditCardNumber){
+    let arreg = creditCardNumber.split('');
+    let newarray = [];
+    newarray = arreg;
+    let mask = "";
+
+    for (let i=0 ; i<arreg.length-4 ; i=i+1){
+      newarray[i]="#";
+     }
+    mask = newarray.toString().replace(/,/g,"");
+    
+    return mask;
+}
+
 export default validator;
