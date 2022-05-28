@@ -317,3 +317,34 @@ footer {
     cursor: pointer;
     
 }
+
+#errort {
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    left: 645px;
+    top: 345px;
+    font-size: 15px;
+    color: #360101;
+}
+
+#errori {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 645px;
+    top: 410px;
+    font-size: 15px;
+    color: #360101;
+}
+
+#errorb {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    left: 645px;
+    top: 480px;
+    font-size: 15px;
+    color: #360101;
+
+}
