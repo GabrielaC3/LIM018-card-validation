@@ -434,3 +434,44 @@ Organización del Trabajo:
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
+
+# README:
+# Banca por Internet de“Gringoots Wizarding Bank”
+## 1.	Resumen
+Banca por Internet de“Gringoots Wizarding Bank", le permite a sus clientes registrar y validar sus datos (Número de tarjeta, Nombre y Número de Bóveda) de forma segura, para afiliarse a la Banca por Internet y poder realizar pagos y operaciones bancarias por este medio.
+## 2.	Proyecto Final
+Página Principal
+![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/paginaPrincipal.png)
+
+Página de Registro:
+![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/paginaRegistro.png)
+
+Página de mensaje de registro exitoso:
+![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/paginaRegistroExitoso.png)
+
+## 3.	Investigación UX
+### 3.1.	Usuarios
+Las brujas y magos que sean clientes del Gringotts Bank.
+### 3.2.	Objetivos
+- El usuario puede ingresar al formulario de registro de forma sencilla.
+- El usuario puede registrar sus datos (Número de tarjeta, Nombre y Número de Bóveda).
+- El proyecto valida si los datos ingresados son correctos (solo números en los campos: Número de tarjeta y Número de Bóveda).
+- El proyecto verifica si el número de tarjeta ingresado es válido.
+- El proyecto brinda seguridad al usuario escondiendo los primeros 12 dígitos de su tarjeta.
+- El proyecto confirma al usuario que su registro fue exitoso.
+
+### 3.3.	Solución de Necesidades
+Los usuarios del Gringotts Bank necesitan afiliarse a la banca por internet para poder realizar sus pagos y operaciones desde cualquier lugar de forma segura y fácil. El producto brinda a los usuarios una solución amigable y rápida de hacerlo, cuidando sus datos y verificando que no haya errores.
+Los usuarios deben ser clientes de Gringotts Bank y tener sus datos a la mano.
+### 3.4.	Primer Prototipo en Papel
+![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/prototipoPapel.png)
+
+### 3.5.	Feedbacks
+
+- En mi primer feedback mi squad me ayudo a vincular las funciones de los módulos con el html (button).
+- Fares me dio recomendaciones para mejorar la vinculación de las funciones de los módulos con el html (button) y para la validación con los test.
+- En mi último feedback me recomendaron mejorar el diseño de mi proyecto y le agregué ventanas, botones y funciones.
+
+### 3.6.	Prototipo Final
+![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/ProtitipoFinalFigma.png)
