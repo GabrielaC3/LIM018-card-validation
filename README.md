@@ -475,3 +475,6 @@ Los usuarios deben ser clientes de Gringotts Bank y tener sus datos a la mano.
 
 ### 3.6.	Prototipo Final
 ![](https://github.com/GabrielaC3/LIM018-card-validation/blob/main/ProtitipoFinalFigma.png)
+
+
+GitHub Pages: https://gabrielac3.github.io/LIM018-card-validation/src/
